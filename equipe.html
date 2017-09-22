@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Project Me Up </title>
+    <title>About Us | Triangle</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/lightbox.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 
@@ -25,7 +25,7 @@
 </head><!--/head-->
 
 <body>
-	<header id="header">
+  <header id="header">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 overflow">
@@ -50,7 +50,7 @@
                     </button>
 
                     <a class="navbar-brand" href="index.html">
-                    	<h1><img src="images/logo.png" alt="logo"></h1>
+                      <h1><img src="images/logo.png" alt="logo"></h1>
                     </a>
 
                 </div>
@@ -59,8 +59,8 @@
                         <li ><a href="service.html">Le service</a></li>
                         <li ><a href="projects.html">Les projets </a></li>
                         <li ><a href="investir.html">Investir </a></li>
-                        <li ><a href="entreprendre.html">Entreprendre</a></li>
-                        <li ><a href="equipe.html">L'équipe</a></li>
+                        <li ><a href="#">Entreprendre</a></li>
+                        <li class="active"><a href="equipe.html">L'équipe</a></li>
                         <li ><a href="contactUs.html">Contact</a></li>
                     </ul>
 
@@ -70,90 +70,93 @@
     </header>
     <!--/#header-->
 
-    <section id="home-slider">
+
+
+    <section id="team">
         <div class="container">
             <div class="row">
-                <div class="main-slider">
-                    <div class="slide-text">
-                        <h1>La base de lancement de vos projets et investissements</h1>
-                        <p>Investir dans des projets de qualité n'a jamais été aussi simple.</p>
-                        <a href="#" class="btn btn-common">S'INSCRIRE</a>
+                <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">L'Équipe</h1>
+                <p class="text-center wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">Un ensemble d'expert polyvalent à votre service.</p>
+                <div id="team-carousel" class="carousel slide wow fadeIn" data-ride="carousel" data-wow-duration="400ms" data-wow-delay="400ms">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators visible-xs">
+                        <li data-target="#team-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#team-carousel" data-slide-to="1"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="col-xs-6 col-sm-6 col-md-4">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/equipe/quentin.png" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info">
+                                        <h2>Quentin Zimmerman</h2>
+                                        <p>Marketing Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/equipe/suryana.png" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info">
+                                        <h2>Suryana Masse</h2>
+                                        <p>Avocate</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/equipe/roger.png" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info">
+                                        <h2>Roger Ingouacka</h2>
+                                        <p>Senior developpeur mobile</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
-                    <img src="images/home/slider/house.png" class="slider-house" alt="slider image">
-                    <img src="images/home/slider/sun.png" class="slider-sun" alt="slider image">
-                    <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
-                    <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+
+                    <!-- Controls -->
+                    <a class="left team-carousel-control hidden-xs" href="#team-carousel" data-slide="prev">left</a>
+                    <a class="right team-carousel-control hidden-xs" href="#team-carousel" data-slide="next">right</a>
                 </div>
             </div>
         </div>
-        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
     </section>
-    <!--/#home-slider-->
-
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/home/pprojets.png" alt="">
-                        </div>
-                        <h2>Entreprendre</h2>
-                        <p>N'a jamais été aussi simple ! Bénéficiez d'une expertise de qualité qui vous accompagnera tout au long de vos projets.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/home/fusee.png" alt="">
-                        </div>
-                        <h2>Perfectionner</h2>
-                        <p> Vos projets et lever des fonds avec grâce au porte monnaie filliale de Project Me Up.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/home/diams.png" alt="">
-                        </div>
-                        <h2>Investir</h2>
-                        <p>En toute sécurité, sur un ensemble de projets validé et certifié par l'équipe Project Me Up.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/#services-->
-
-    <!--/#action-->
-
-    <section id="features">
-        <div class="container">
-            <div class="row">
-                <div class="single-features">
-                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/home/image1.png" class="img-responsive" alt="">
-                    </div>
-                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Experienced and Enthusiastic</h2>
-                        <P>Pork belly leberkas cow short ribs capicola pork loin. Doner fatback frankfurter jerky meatball pastrami bacon tail sausage. Turkey fatback ball tip, tri-tip tenderloin drumstick salami strip steak.</P>
-                    </div>
-                </div>
-                <div class="single-features">
-                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>Built for the Responsive Web</h2>
-                        <P>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.</P>
-                    </div>
-                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/home/image2.png" class="img-responsive" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-     <!--/#features-->
-
+    <!--/#team-->
 
     <footer id="footer">
         <div class="container">
@@ -208,6 +211,7 @@
         </div>
     </footer>
     <!--/#footer-->
+
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>

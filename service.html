@@ -137,21 +137,7 @@
         </div>
     </section>
 
-
-    <section id="action" class="responsive">
-        <div class="vertical-center">
-             <div class="container">
-                <div class="row">
-                    <div class="action take-tour">
-                        <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <h1 class="title">Les clients</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/#action-->
+    
 
     <!--/#recent-projects-->
 
@@ -192,21 +178,58 @@
 
 
 
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center bottom-separator">
-                <img class="img-responsive inline" alt="">
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center bottom-separator">
+                    <img src="images/home/under.png" class="img-responsive inline" alt="">
+                </div>
+                <div class="col-md-8 col-sm-14">
+                    <div class="contact-form bottom">
+                        <h2>Envoyer un message</h2>
+                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Nom">
+                                    </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" required="required" placeholder="Email">
+                                    </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Votre texte ici"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
+                                    </div>
+                        </form>
                     </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="contact-info bottom">
+                        <h2>Contacts</h2>
+                        <address>
+                        E-mail: <a href="mailto:someone@example.com">contact@projectmeup.com</a> <br>
+                        Phone: +1 (123) 456 7890 <br>
+                        Fax: +1 (123) 456 7891 <br>
+                        </address>
 
-            <div class="col-sm-12">
-                <div class="copyright-text text-center">
-                    <p>&copy;Project Me Up 2017. All Rights Reserved.</p>
+                        <h2>Address</h2>
+                        <address>
+                        21/F, On Hing Building, <br>
+                        1 On Hing Terrace, <br>
+                        Central, Hong Kong <br>
+                        Chine <br>
+                        </address>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="copyright-text text-center">
+                        <p>&copy;Project Me Up 2017. All Rights Reserved.</p>
+                </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 <!--/#footer-->
 
     <script type="text/javascript" src="js/jquery.js"></script>

@@ -1,6 +1,6 @@
 {
   "config": {
-    "default": "en"
+    "default": "fr"
   },
   "language": {
     "fr": {
@@ -26,7 +26,7 @@
     },
     "en": {
       "#home-title": "Launch of all your project !",
-      "#ml-pluginName": "多國語言",
+      "#home-subtitle": "IOJiojoijoijim .",
       "#ml-howToUse": "如何使用",
       "#ml-defaultLangCode": "// 選擇語言於localStorage或json中的預設值",
       "#ml-enLangCode": "// 即時轉換語言",

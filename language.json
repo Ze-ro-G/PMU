@@ -3,8 +3,8 @@
     "default": "en"
   },
   "language": {
-    "fr": {
-      "#home-title": "La base de lancement de vos projets et investissements",
+    "en": {
+      "#home-title": "HOOOO base de lancement de vos projets et investissements",
       "#home-subtitle": "Investir dans des projets de qualité n'a jamais été aussi simple.",
 
       "#home-obj1-title": "Entreprendre",
@@ -24,7 +24,7 @@
       "#ml-msg2": "Some message #2",
       ".ml-classA": "Class #A"
     },
-    "en": {
+    "fr": {
       "#home-title": "Launch of all your project !",
       "#ml-pluginName": "多國語言",
       "#ml-howToUse": "如何使用",

@@ -27,6 +27,7 @@
     <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
     <script src="jquery.MultiLanguage.min.js"></script>
     <script>
+    
       $(document).ready(function(){
         $.MultiLanguage('language.json');
       })
@@ -42,7 +43,7 @@
                         <ul class="nav nav-pills">
 
                             <li><button onclick="$.MultiLanguage('language.json', 'fr')" class="btn">FR</button></li>
-                            <li><button onclick="$.MultiLanguage('language.json', 'en')" class="btn">EN</button></li>
+                            <li><button id="hellobutton">EN</button></li>
 
                             <li><a href=""><i class="fa fa-facebook"></i></a></li>
                             <li><a href=""><i class="fa fa-twitter"></i></a></li>
@@ -203,7 +204,12 @@
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-
+    <script>
+    function hello() {
+    alert('Hello');
+    }
+    document.getElementById("hellobutton").addEventListener("click", hello);
+    </script>
 
 </body>
 </html>

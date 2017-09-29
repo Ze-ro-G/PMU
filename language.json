@@ -6,17 +6,12 @@
     "en": {
       "#home-title": "HOOOO base de lancement de vos projets et investissements",
       "#home-subtitle": "Investir dans des projets de qualité n'a jamais été aussi simple.",
-
       "#home-obj1-title": "Entreprendre",
       "#home-obj1-subtitle": "N'a jamais été aussi simple ! Bénéficiez d'une expertise de qualité qui vous accompagnera tout au long de vos projets.",
-
       "#home-obj2-title": "Perfectionner",
       "#home-obj2-subtitle": "Vos projets et lever des fonds avec grâce au porte monnaie filliale de Project Me Up.",
-
       "#home-obj3-title": "Investir",
       "#home-obj3-subtitle": "En toute sécurité, sur un ensemble de projets validé et certifié par l'équipe Project Me Up."
-
-
       "#ml-defaultLangCode": "// choose language by localStorage or default in json config",
       "#ml-enLangCode": "// change language immdiately",
       "#ml-demo": "Demo:",

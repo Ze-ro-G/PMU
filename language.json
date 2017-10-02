@@ -1,9 +1,9 @@
 {
   "config": {
-    "default": "en"
+    "default": "fr"
   },
   "language": {
-    "en": {
+    "fr": {
       "#ml-title": "La base de lancement de vos projets et investissements",
       "#ml-pluginName": "Multi Language",
       "#ml-howToUse": "How to use:",
@@ -14,7 +14,7 @@
       "#ml-msg2": "Some message #2",
       ".ml-classA": "Class #A"
     },
-    "fr": {
+    "en": {
       "#ml-title": "The start of all your project ",
       "#ml-pluginName": "多國語言",
       "#ml-howToUse": "如何使用",

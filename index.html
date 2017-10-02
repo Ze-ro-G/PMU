@@ -6,6 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Project Me Up </title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.MultiLanguage.min.js"></script>
     <script src="jquery.tr.js"></script>
 
 
@@ -14,37 +16,6 @@
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script src="jquery.MultiLanguage.min.js"></script>
-    <script>
-    /*
-     * This example shows that you can:
-     * - change the language on the fly.
-     */
-
-    	var myDictionary = {
-    		fr : {
-    			'Welcome!' : 'Bienvenue !'
-    		}
-    	}
-    	$.tr.dictionary(myDictionary);
-
-    	$(document).ready(function() {
-
-    		// change the language
-    		$('#language').change(function() {
-    			$.tr.language($(this).val());
-
-    			var tr = $.tr.translator();
-    			$('#welcome').text(tr('Welcome!'));
-    		});
-
-    		// default language is English if no cookies present
-    		var language = $.tr.language('en', true);
-
-    		$('#language').val(language);
-    		$('#language').change();
-    	});
-    </script>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -69,6 +40,14 @@
 </head><!--/head-->
 
 <body>
+  <script>
+    $(document).ready(function(){
+      $.MultiLanguage('language.json');
+    })
+
+  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+  <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js">
+  </script>
 	<header id="header">
         <div class="container">
             <div class="row">
